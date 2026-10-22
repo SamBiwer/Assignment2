@@ -67,15 +67,15 @@ def main():
 
         # Add a branch for each menu option here.
         elif choice == "1":
-            print(f"Cost per semester: ${cost_per_semester(annual_cost):.2f}")  
+            print(f"Cost per semester: ${cost_per_semester(annual_cost):,.2f}")  
         elif choice == "2":
-            print(f"Cost per month: ${cost_per_month(annual_cost):.2f}")    
+            print(f"Cost per month: ${cost_per_month(annual_cost):,.2f}")    
         elif choice == "3":
-            print(f"Cost per class day: ${cost_per_day(annual_cost):.2f}")
+            print(f"Cost per class day: ${cost_per_day(annual_cost):,.2f}")
         elif choice == "4":
-            print(f"Cost per credit: ${cost_per_credit(annual_cost, credits):.2f}")
+            print(f"Cost per credit: ${cost_per_credit(annual_cost, credits):,.2f}")
         elif choice == "5":
-            print(f"Cost per class: ${cost_per_class(annual_cost, credits):.2f}")
+            print(f"Cost per class: ${cost_per_class(annual_cost, credits):,.2f}")
         
 
 
